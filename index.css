@@ -1,0 +1,74 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.paragrafo1 {
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navegacao {
+    background-color: #009688;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.conteudoprincipal {
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332e;
+}
+
+.rodape {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    position: fixed; /* ou relative se preferir */
+    bottom: 0; /* Fixe o rodapé na parte inferior da página */
+    left: 0; /* Alinhe o rodapé ao lado esquerdo da página */
+}
+

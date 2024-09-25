@@ -1,0 +1,20 @@
+.home  {
+    background-image: url('https://img.freepik.com/fotos-premium/livro-verde-isolado-em-fundo-verde-conceito-de-volta-a-escola-ai-gerado_1034098-3059.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1720569600&semt=ais_user');
+    background-size: 40%;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+.content {
+    text-align: center;
+    color: white;
+    background: rgba(0, 31, 7, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+
+}

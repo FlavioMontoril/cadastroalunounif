@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet" href="index.css" media="all">
+
+</head>
+<body>
+
+    <div class="paragrafo1">
+        <h1>Cadastro de Alunos - UNIFAMETRO</h1>
+    </div>
+    
+    <div class="navegacao">
+        <a href="inicio.html">Voltar para a página inicial</a>
+        <a href="http://www.unifametro.edu.br" target="_blank">Página da Unifametro</a>
+    </div><br><br>
+
+    <div class="conteudoprincipal">
+
+        <form id="formularioestudante">
+            <label>Nome:
+                <input type="text" name="primeironome" id="primeironome" required>
+            </label><br>
+
+            <label>Sobrenome:
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </label><br>
+
+            <label>Matricula:
+                <input type="text" name="matricula" id="matricula" required>
+            </label><br>
+
+            <label>Campus:
+                <select name="campus" id="campus" required>
+                    <option value="">Selecione um campus</option>
+                    <option value="Maracanau">Maracanau</option>
+                    <option value="Padre Ibiapina">Padre Ibiapina</option>
+                    <option value="Conselheiro Esterlita">Conselheiro Esterlita</option>
+                    <option value="Carneiro da Cunha">Carneiro da Cunha</option>
+                </select>
+            </label><br><br>
+
+            <button type="submit" value="Enviar">Enviar</button>
+            <button type="reset" value="Apagar">Apagar</button>
+            <br><br>
+
+        </form>
+        
+    <div class="rodape">
+        <p>Esta página foi desenvolvida por: Flávio Montoril.</p>
+    </div>    
+
+    </div>
+    
+</body>
+</html>
